@@ -1,0 +1,47 @@
+Export time: 2020/11/16 22:25:04 EET
+Export duration: 38.707s
+
+Export settings:
+	Export Geometry: Models with Shape Fallback
+	Output Path: C:\Users\Recep\Desktop\three.js-master\examples\models\gltf\BoomBox\glTF-Binary
+	Simplify Terrain Meshes: true
+	Terrain Layers: Export all selected terrain layers
+	applicationString: CityEngine 2020.0.6332 0509R
+	author: Recep
+	baseName: bombox5
+	encoderID: com.esri.prt.codecs.GLTFEncoder
+	encoderName: Khronos Group glTF
+	errorFallback: true
+	existingFiles: OVERWRITE
+	fileGranularity: MEMORY_BUDGET
+	globalOffset: [ 4.773811340332031, -1.010645866394043, -0.6882476806640625 ]
+	includeMaterials: true
+	memoryBudget: 500
+	meshGranularity: INSTANCED
+	outputFormat: GLTF_GLB_WITH_SINGLE_BUFFER
+	sceneFile: /Experience/scenes/Sahne.cej
+	script: 
+	shapeNameDelimiter: _
+	writeLog: true
+
+Initial shapes:
+	0 :   OK                'scene.gltf'             OID '4a70f430-1ed9-11b3-bbb5-0081d7ff675f'
+
+
+
+Files created:
+	'bombox5_0.glb':
+		Initial shapes:
+			0, 
+		GEOMETRY:
+			Total Meshes: 2
+			Total Polygons: 1996
+			  | Name            | Instance Occurrences | Material     | Polygons 
+			==+=================+======================+==============+==========
+			1  'Object004_Osn_0'                     1  'material(1),'       260 
+			2  'Object003_Osn_0'                     1  'material(1),'      1736 
+		MATERIAL:
+			Total Materials: 1
+			  | Name     | baseColorTexture | emissiveTexture | metallicRoughnessTexture | normalTexture | occlusionTexture 
+			==+==========+==================+=================+==========================+===============+==================
+			1  'material' 'bombox5_0'        ''                'bombox5_0_2'              'bombox5_0_1'   'bombox5_0_2'     

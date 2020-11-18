@@ -1,0 +1,46 @@
+Export time: 2020/11/16 22:26:57 EET
+Export duration: 13.261s
+
+Export settings:
+	Export Geometry: Models with Shape Fallback
+	Output Path: C:\Users\Recep\Desktop\three.js-master\examples\models\gltf\BoomBox\glTF-Binary
+	Simplify Terrain Meshes: true
+	Terrain Layers: Export all selected terrain layers
+	applicationString: CityEngine 2020.0.6332 0509R
+	author: Recep
+	baseName: bombox6
+	encoderID: com.esri.prt.codecs.GLTFEncoder
+	encoderName: Khronos Group glTF
+	errorFallback: true
+	existingFiles: OVERWRITE
+	fileGranularity: MEMORY_BUDGET
+	globalOffset: [ 4.7058563232421875, -0.10397148132324219, -0.38726043701171875 ]
+	includeMaterials: true
+	memoryBudget: 500
+	meshGranularity: INSTANCED
+	outputFormat: GLTF_GLB_WITH_SINGLE_BUFFER
+	sceneFile: /Experience/scenes/Sahne.cej
+	script: 
+	shapeNameDelimiter: _
+	writeLog: true
+
+Initial shapes:
+	0 :   OK                'scene.gltf'             OID '1dea12b8-1eff-11b3-bbb5-0081d7ff675f'
+
+
+
+Files created:
+	'bombox6_0.glb':
+		Initial shapes:
+			0, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 8204
+			  | Name            | Instance Occurrences | Material | Polygons 
+			==+=================+======================+==========+==========
+			1  'defaultMaterial'                     1  'tile(1),'      8204 
+		MATERIAL:
+			Total Materials: 1
+			  | Name | baseColorTexture | emissiveTexture | metallicRoughnessTexture | normalTexture | occlusionTexture 
+			==+======+==================+=================+==========================+===============+==================
+			1  'tile' 'bombox6_0'        ''                'bombox6_0_2'              'bombox6_0_1'   'bombox6_0_2'     

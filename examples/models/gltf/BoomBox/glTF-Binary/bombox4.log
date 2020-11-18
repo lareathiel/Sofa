@@ -1,0 +1,57 @@
+Export time: 2020/11/16 22:22:17 EET
+Export duration: 30.814s
+
+Export settings:
+	Export Geometry: Models with Shape Fallback
+	Output Path: C:\Users\Recep\Desktop\three.js-master\examples\models\gltf\BoomBox\glTF-Binary
+	Simplify Terrain Meshes: true
+	Terrain Layers: Export all selected terrain layers
+	applicationString: CityEngine 2020.0.6332 0509R
+	author: Recep
+	baseName: bombox4
+	encoderID: com.esri.prt.codecs.GLTFEncoder
+	encoderName: Khronos Group glTF
+	errorFallback: true
+	existingFiles: OVERWRITE
+	fileGranularity: MEMORY_BUDGET
+	globalOffset: [ 4.273784637451172, -2.1425347328186035, -2.2342453002929688 ]
+	includeMaterials: true
+	memoryBudget: 500
+	meshGranularity: INSTANCED
+	outputFormat: GLTF_GLB_WITH_SINGLE_BUFFER
+	sceneFile: /Experience/scenes/Sahne.cej
+	script: 
+	shapeNameDelimiter: _
+	writeLog: true
+
+Initial shapes:
+	0 :   OK                'scene.gltf'             OID 'b8a521b8-1ebd-11b3-bbb5-0081d7ff675f'
+
+
+
+Files created:
+	'bombox4_0.glb':
+		Initial shapes:
+			0, 
+		GEOMETRY:
+			Total Meshes: 7
+			Total Polygons: 306907
+			  | Name                | Instance Occurrences | Material     | Polygons 
+			==+=====================+======================+==============+==========
+			1  'Duvet_Duvet_0'                           1  'Duvet(1),'       102799 
+			2  'Duvet_Duvet_0_1'                         1  'Duvet(1),'       118301 
+			3  'Sheet_Sheet_0'                           1  'Sheet(1),'        48075 
+			4  'Pillow_1_Pillow_1_0'                     1  'Pillow_1(1),'     18506 
+			5  'Pillow_2_Pillow_2_0'                     1  'Pillow_2(1),'     18486 
+			6  'Matress_Matress_0'                       1  'Matress(1),'        260 
+			7  'Bed_BedFrame_0'                          1  'BedFrame(1),'       480 
+		MATERIAL:
+			Total Materials: 6
+			  | Name     | baseColorTexture | emissiveTexture | metallicRoughnessTexture | normalTexture | occlusionTexture 
+			==+==========+==================+=================+==========================+===============+==================
+			1  'Duvet'    'bombox4_0'        ''                'bombox4_0_2'              'bombox4_0_1'   'bombox4_0_2'     
+			2  'Sheet'    'bombox4_0_3'      ''                'bombox4_0_5'              'bombox4_0_4'   'bombox4_0_5'     
+			3  'Pillow_1' 'bombox4_0_6'      ''                'bombox4_0_8'              'bombox4_0_7'   'bombox4_0_8'     
+			4  'Pillow_2' 'bombox4_0_9'      ''                'bombox4_0_11'             'bombox4_0_10'  'bombox4_0_11'    
+			5  'Matress'  'bombox4_0_12'     ''                'bombox4_0_14'             'bombox4_0_13'  ''                
+			6  'BedFrame' 'bombox4_0_15'     ''                'bombox4_0_17'             'bombox4_0_16'  'bombox4_0_17'    

@@ -1,0 +1,49 @@
+Export time: 2020/11/16 22:21:06 EET
+Export duration: 6.744s
+
+Export settings:
+	Export Geometry: Models with Shape Fallback
+	Output Path: C:\Users\Recep\Desktop\three.js-master\examples\models\gltf\BoomBox\glTF-Binary
+	Simplify Terrain Meshes: true
+	Terrain Layers: Export all selected terrain layers
+	applicationString: CityEngine 2020.0.6332 0509R
+	author: Recep
+	baseName: bombox3
+	encoderID: com.esri.prt.codecs.GLTFEncoder
+	encoderName: Khronos Group glTF
+	errorFallback: true
+	existingFiles: OVERWRITE
+	fileGranularity: MEMORY_BUDGET
+	globalOffset: [ 5.2027587890625, -3.7897186279296875, -0.642333984375 ]
+	includeMaterials: true
+	memoryBudget: 500
+	meshGranularity: INSTANCED
+	outputFormat: GLTF_GLB_WITH_SINGLE_BUFFER
+	sceneFile: /Experience/scenes/Sahne.cej
+	script: 
+	shapeNameDelimiter: _
+	writeLog: true
+
+Initial shapes:
+	0 :   OK                'scene.gltf'             OID '60ba46b0-1ea7-11b3-bbb5-0081d7ff675f'
+
+Assets with errors/warnings/infos:
+	/Experience/data/Sofa/scene.gltf:
+		Warning: Geometry 'file:/C:/Users/Recep/Documents/CityEngine/Default%20Workspace/Experience/data/Sofa/scene.gltf (mesh: low-poly-sofa001__0)' contained: 4 0-area faces (removed); ; 
+
+
+Files created:
+	'bombox3_0.glb':
+		Initial shapes:
+			0, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1418
+			  | Name                | Instance Occurrences | Material         | Polygons 
+			==+=====================+======================+==================+==========
+			1  'low-poly-sofa001__0'                     1  'Scene_-_Root(1),'      1418 
+		MATERIAL:
+			Total Materials: 1
+			  | Name         | baseColorTexture | emissiveTexture | metallicRoughnessTexture | normalTexture | occlusionTexture 
+			==+==============+==================+=================+==========================+===============+==================
+			1  'Scene_-_Root' 'bombox3_0'        ''                'bombox3_0_2'              'bombox3_0_1'   'bombox3_0_2'     
