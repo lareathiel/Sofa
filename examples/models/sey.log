@@ -1,0 +1,46 @@
+Export time: 2020/12/01 09:59:45 EET
+Export duration: 27.486s
+
+Export settings:
+	Export Geometry: Models with Shape Fallback
+	Output Path: C:\Users\Recep\Desktop\tak?mlarrrr\Sofa\examples\models
+	Simplify Terrain Meshes: true
+	Terrain Layers: Export all selected terrain layers
+	applicationString: CityEngine 2020.1.6821 0928R
+	author: Recep
+	baseName: sey
+	encoderID: com.esri.prt.codecs.GLTFEncoder
+	encoderName: Khronos Group glTF
+	errorFallback: true
+	existingFiles: OVERWRITE
+	fileGranularity: MEMORY_BUDGET
+	globalOffset: [ 22.847305297851562, -12.373248100280762, -100.38861083984375 ]
+	includeMaterials: true
+	memoryBudget: 500
+	meshGranularity: INSTANCED
+	outputFormat: GLTF_GLB_WITH_SINGLE_BUFFER
+	sceneFile: /bugun/scenes/Sahnee.cej
+	script: 
+	shapeNameDelimiter: _
+	writeLog: true
+
+Initial shapes:
+	0 :   OK                'bombox6_0.glb'             OID 'af51e6a8-759d-11b5-9504-0081d7ff675f'
+
+
+
+Files created:
+	'sey_0.glb':
+		Initial shapes:
+			0, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 8204
+			  | Name            | Instance Occurrences | Material | Polygons 
+			==+=================+======================+==========+==========
+			1  'defaultMaterial'                     1  'tile(1),'      8204 
+		MATERIAL:
+			Total Materials: 1
+			  | Name | baseColorTexture | emissiveTexture | metallicRoughnessTexture | normalTexture | occlusionTexture 
+			==+======+==================+=================+==========================+===============+==================
+			1  'tile' 'sey_0'            ''                'sey_0_2'                  'sey_0_1'       'sey_0_2'         
